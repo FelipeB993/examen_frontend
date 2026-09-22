@@ -1,0 +1,63 @@
+body {
+background-color: #f2f2f2;
+min-height: 100vh;
+}
+
+/* Barra de navegación */
+
+.navbar-brand {
+font-weight: bold;
+}
+
+/* Tarjetas */
+
+.card {
+border: none;
+border-radius: 15px;
+overflow: hidden;
+}
+
+.card-header {
+padding: 20px;
+}
+
+.card-body {
+padding: 30px;
+}
+
+/* Títulos */
+
+h2 {
+font-weight: bold;
+}
+
+/* Botones */
+
+.btn {
+padding: 10px;
+font-weight: bold;
+}
+
+/* Inputs */
+
+.form-control {
+border-radius: 8px;
+}
+
+.form-control:focus {
+box-shadow: none;
+}
+
+/* Responsive */
+
+@media (max-width: 576px) {
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+}
